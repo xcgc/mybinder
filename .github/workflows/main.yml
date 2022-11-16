@@ -1,7 +1,5 @@
 name: Build Notebook Container
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch: ~
 # You may want to trigger this Action on other things than a push.
 jobs:
